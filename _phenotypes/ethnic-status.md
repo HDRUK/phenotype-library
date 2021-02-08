@@ -13,7 +13,7 @@ codelists:
     - caliber_ethnic_status_PMD762GQ76BscDn5YK3Mwe_Read2.csv
     - opensafely-ethnicity-2020-04-27_CTV3.csv
     - nhs_ethnic_category_DMD.csv
-    - ethnicity_SNOMEDCT.csv
+    - ethnicity-SNOMEDCT.csv
 clinical_terminologies: 
     - Read Version 2
     - Read version 3 (CTV3)
@@ -46,7 +46,7 @@ Ethnicity information was recorded in the HES <i>patient</i> table which uses th
 
 #### SNOMED CT
 
-{% include csv.html csvdata=site.data.codelists.ethnicity_SNOMEDCT %}
+{% include csv.html csvdata=site.data.codelists.ethnicity-SNOMEDCT %}
 
 ### Implementation
 
