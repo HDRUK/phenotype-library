@@ -47,7 +47,7 @@ collections:
 algolia:
   application_id: 'IXFI6M2LKK'
   index_name: phenotypes
-  search_only_api_key: d8ba6b6a391cf5b4074fbd3191b77c37
+  search_only_api_key: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
   settings:
     searchableAttributes:
       - title
